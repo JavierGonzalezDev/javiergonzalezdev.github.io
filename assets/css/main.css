@@ -4713,3 +4713,16 @@ input, select, textarea {
 .posts article p {
   flex-grow: 1;
 }
+/* ===== SKILLS ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.skills-grid div {
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
