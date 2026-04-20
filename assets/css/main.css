@@ -4687,3 +4687,29 @@ input, select, textarea {
 		}
 
 	}
+	/* ===== FIX GRID PROYECTOS ===== */
+.posts {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.posts article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.posts article .image img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.posts article p {
+  flex-grow: 1;
+}
